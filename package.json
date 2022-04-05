@@ -1,0 +1,23 @@
+{
+  "name": "js-node-pwc-2022",
+  "version": "1.0.0",
+  "description": "Depo node project for PWC trainees April 2022",
+  "main": "01-script.js",
+  "scripts": {
+    "start": "node 01-script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shridhar-javafsd/JS-Node-PWC-2022.git"
+  },
+  "author": "Vaman Deshmukh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shridhar-javafsd/JS-Node-PWC-2022/issues"
+  },
+  "homepage": "https://github.com/shridhar-javafsd/JS-Node-PWC-2022#readme", 
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

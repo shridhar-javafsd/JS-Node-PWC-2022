@@ -1,5 +1,10 @@
 // node 01-script.js 
 
+// NodeJS - js engine - v8 
+// NPM - 
+
+// create-react-app app-name
+
 // asychronous JS 
 
 // console.log("One");
