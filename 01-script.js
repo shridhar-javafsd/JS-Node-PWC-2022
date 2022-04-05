@@ -13,7 +13,17 @@ const app = express();
 const port = 9999;
 
 app.get('/', (request, response) => {
-    response.send(`Welcome to my app ${port}`);
+    response.send(`Welcome to my app ${port}.`);
+    console.log(`App is running...`);
+});
+
+app.get('/home', (request, response) => {
+    response.send(`Welcome to home.`);
+    console.log(`App is running...`);
+});
+
+app.get('/contact', (request, response) => {
+    response.send(`Welcome to contact.`);
     console.log(`App is running...`);
 });
 
