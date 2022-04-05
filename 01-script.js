@@ -19,12 +19,12 @@ app.get('/', (request, response) => {
 
 app.get('/home', (request, response) => {
     response.send(`Welcome to home.`);
-    console.log(`App is running...`);
+    console.log(`home...`);
 });
 
 app.get('/contact', (request, response) => {
     response.send(`Welcome to contact.`);
-    console.log(`App is running...`);
+    console.log(`contact...`);
 });
 
 app.listen(port, () => {
