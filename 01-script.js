@@ -13,12 +13,12 @@ const app = express();
 const port = 9999;
 
 app.get('/', (request, response) => {
-    response.send('Welcome to my app ${port}');
-    console.log('App is running...');
+    response.send(`Welcome to my app ${port}`);
+    console.log(`App is running...`);
 });
 
 app.listen(port, () => {
-    console.log('open http://localhost:9999/ to view the output.');
+    console.log(`open http://localhost:${port}/ to view the output.`);
 });
 
 
